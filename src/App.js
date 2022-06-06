@@ -2,14 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom"
 import todo from "./Todo.js"
 import './App.css';
-let todoList = [
-  { id: 1, title: "Wake up", status: true },
-  { id: 2, title: "drink tea", status: false },
-  { id: 3, title: "eat maggi", status: true },
-  { id: 4, title: "sleep", status: false }
-];
-
-
 
 const name = "Bruce Wayne";
 const profilePhoto = "https://avatarfiles.alphacoders.com/161/161365.jpg";
@@ -55,7 +47,6 @@ function App() {
          <input type="text" placeholder="Enter task here"></input>
          <button>Add</button>
          <div id="displayList">
-           <todo/>
          </div>
        </div>
 
