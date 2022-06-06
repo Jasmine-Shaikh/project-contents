@@ -44,8 +44,9 @@ function App() {
          </div>
        </div>
        <div id="todoPage">
-         <input type="text" placeholder="Enter task here"></input>
-         <button>Add</button>
+         <input id="listBar" type="text" placeholder="Enter task here"></input>
+         <button  onClick={todo}>Add</button>
+         <h2>To Do List:</h2>
          <div id="displayList">
          </div>
        </div>

@@ -9,7 +9,9 @@ let todoList = [
 
 function displayNotes(){
     document.getElementById("displayList").innerHTML = "";
-    todoList.push(document.getElementById("notesBar").value)
+    todoList.push(
+        
+        {title: document.getElementById("listBar").value})
     todoList.forEach((e)=>{
 
         let taskList = document.createElement("h4");
@@ -24,7 +26,7 @@ function displayNotes(){
             }
         }
 
-        document.getElementById("List").append(taskList)
+        document.getElementById("displayList").append(taskList)
     })
 
 
